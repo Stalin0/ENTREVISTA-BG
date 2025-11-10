@@ -1,0 +1,115 @@
+﻿<div class="movies-dashboard">
+  <section class="hero">
+    <div>
+      <h1>Cartelera</h1>
+      <p>
+        Explora el catalogo de peliculas. Los invitados solo pueden consultar la informacion, mientras que
+        el administrador puede registrar nuevas peliculas y eliminar las que ya no se necesiten.
+      </p>
+    </div>
+    <button type="button" (click)="fetchMovies({ forceRefresh: true })" [disabled]="loading()">
+      {{ loading() ? 'Actualizando...' : 'Actualizar listado' }}
+    </button>
+  </section>
+
+  <section *ngIf="isAdmin()" class="card form-card">
+    <header>
+      <h2>Registrar nueva pelicula</h2>
+      <button type="button" class="ghost" (click)="resetForm()" [disabled]="saving()">
+        Limpiar formulario
+      </button>
+    </header>
+
+    <form [formGroup]="form" (ngSubmit)="save()" novalidate>
+      <div class="grid">
+        <label>
+          <span>Titulo</span>
+          <input type="text" formControlName="titulo" placeholder="Titulo de la pelicula" />
+          <small class="field-error" *ngIf="controlInvalid('titulo')">
+            {{ controlErrorMessage('titulo') }}
+          </small>
+        </label>
+        <label>
+          <span>Director</span>
+          <input type="text" formControlName="director" placeholder="Nombre del director" />
+          <small class="field-error" *ngIf="controlInvalid('director')">
+            {{ controlErrorMessage('director') }}
+          </small>
+        </label>
+      </div>
+
+      <div class="grid">
+        <label>
+          <span>Genero</span>
+          <input type="text" formControlName="genero" placeholder="Accion, drama, terror..." />
+          <small class="field-error" *ngIf="controlInvalid('genero')">
+            {{ controlErrorMessage('genero') }}
+          </small>
+        </label>
+        <label>
+          <span>Ano</span>
+          <input type="number" formControlName="anio" min="1888" />
+          <small class="field-error" *ngIf="controlInvalid('anio')">
+            {{ controlErrorMessage('anio') }}
+          </small>
+        </label>
+      </div>
+
+      <label>
+        <span>Descripcion</span>
+        <textarea formControlName="descripcion" rows="3" placeholder="Sinopsis breve"></textarea>
+        <small class="field-error" *ngIf="controlInvalid('descripcion')">
+          {{ controlErrorMessage('descripcion') }}
+        </small>
+      </label>
+
+      <button class="primary" type="submit" [disabled]="saving()">
+        {{ saving() ? 'Guardando...' : 'Guardar' }}
+      </button>
+    </form>
+  </section>
+
+  <section class="card gallery">
+    <header>
+      <h2>Peliculas disponibles</h2>
+      <span *ngIf="!isAdmin()">Vista solo lectura</span>
+    </header>
+
+    <div class="state" *ngIf="loading()">
+      <span class="loader"></span> Cargando peliculas...
+    </div>
+
+    <p class="state" *ngIf="!loading() && movies().length === 0">
+      No hay peliculas registradas todavia.
+    </p>
+
+    <div class="grid" *ngIf="!loading() && movies().length > 0">
+      <article *ngFor="let movie of movies()">
+        <div class="info">
+          <h3>{{ movie.titulo }}</h3>
+          <ul class="meta">
+            <li *ngIf="movie.director">Dirigida por {{ movie.director }}</li>
+            <li *ngIf="movie.genero">Genero: {{ movie.genero }}</li>
+            <li *ngIf="movie.anio">Ano: {{ movie.anio }}</li>
+          </ul>
+          <p class="description" *ngIf="movie.descripcion">
+            {{ movie.descripcion }}
+          </p>
+        </div>
+        <footer *ngIf="isAdmin()">
+          <button type="button" class="ghost danger" (click)="remove(movie)" [disabled]="saving()">
+            Eliminar
+          </button>
+        </footer>
+      </article>
+    </div>
+  </section>
+
+  <div *ngIf="feedback()" class="alert success">
+    {{ feedback() }}
+  </div>
+
+  <div *ngIf="error()" class="alert error">
+    {{ error() }}
+  </div>
+</div>

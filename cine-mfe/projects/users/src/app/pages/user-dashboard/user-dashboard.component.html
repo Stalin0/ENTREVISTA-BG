@@ -1,0 +1,168 @@
+<div
+  class="dashboard"
+  [class.light-theme]="themeMode() === 'light'"
+  [class.dark-theme]="themeMode() === 'dark'"
+>
+  <section class="hero-banner">
+    <div class="hero-illustration" aria-hidden="true">
+      <div class="robot">
+        <div class="robot__antenna"></div>
+        <div class="robot__head">
+          <span class="robot__eye"></span>
+          <span class="robot__eye"></span>
+          <div class="robot__smile"></div>
+        </div>
+        <div class="robot__body">
+          <div class="robot__panel"></div>
+          <div class="robot__arm robot__arm--static"></div>
+          <div class="robot__arm robot__arm--wave"></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-content">
+      <h1>Gestiona invitados y experiencias de cine con el caracter magenta del Banco Guayaquil</h1>
+      <div class="hero-actions">
+        <button type="button" class="ghost theme-toggle" (click)="toggleTheme()">
+          {{ themeMode() === 'dark' ? 'Modo claro' : 'Modo oscuro' }}
+        </button>
+        <button type="button" class="ghost accent" (click)="loadUsers()" [disabled]="loadingList()">
+          {{ loadingList() ? 'Actualizando...' : 'Actualizar lista' }}
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="card brand-card">
+    <header>
+      <div>
+        <h2>Cine Banco Guayaquil</h2>
+        <span>Unimos banca e historias de cine en un mismo panel.</span>
+      </div>
+      <span class="chip">Identidad magenta</span>
+    </header>
+    <p>
+      Este proyecto adopta las tonalidades magentas del Banco Guayaquil. Puedes alternar entre modo claro y oscuro
+      para adaptar la experiencia a tu entorno y seguir gestionando invitados con el equilibrio perfecto entre
+      entretenimiento y seguridad.
+    </p>
+  </section>
+
+  <section class="card">
+    <header>
+      <div>
+        <h2>Registrar invitado</h2>
+        <span>Los invitados solo podran ver el catalogo de peliculas.</span>
+      </div>
+      <span class="chip">Solo admin</span>
+    </header>
+
+    <form [formGroup]="inviteForm" (ngSubmit)="registerInvite()" novalidate>
+      <div class="grid">
+        <label>
+          <span>Nombre completo</span>
+          <input type="text" formControlName="fullName" placeholder="Nombre Apellido" />
+        </label>
+
+        <label>
+          <span>Correo</span>
+          <input type="email" formControlName="correo" placeholder="invitado@cine.com" />
+        </label>
+      </div>
+
+      <label>
+        <span>Contrasena temporal</span>
+        <input type="password" formControlName="contrasenia" placeholder="Minimo 6 caracteres" />
+      </label>
+
+      <button class="primary" type="submit" [disabled]="saving()">
+        {{ saving() ? 'Guardando...' : 'Crear invitado' }}
+      </button>
+    </form>
+  </section>
+
+  <section class="card list">
+    <header class="list-header">
+      <div>
+        <h2>Invitados registrados</h2>
+        <p>Gestiona los accesos existentes, edita informacion o revoca permisos.</p>
+      </div>
+    </header>
+
+    <div class="state" *ngIf="loadingList()">
+      <span class="loader"></span> Cargando invitados...
+    </div>
+
+    <div class="state" *ngIf="!loadingList() && invitedUsers().length === 0">
+      No hay invitados registrados todavia.
+    </div>
+
+    <div class="invite-grid" *ngIf="!loadingList() && invitedUsers().length > 0">
+      <article class="invite-card" *ngFor="let user of invitedUsers()">
+        <div class="avatar">{{ getInitial(user) }}</div>
+        <div class="invite-info">
+          <div class="invite-title">
+            <strong>{{ user.fullName || user.correo }}</strong>
+            <span class="badge" [class.inactive]="!isActiveUser(user)" [class.active]="isActiveUser(user)">
+              {{ statusLabel(user) }}
+            </span>
+          </div>
+          <small>{{ user.correo }}</small>
+        </div>
+        <div class="actions">
+          <button type="button" class="ghost" (click)="startEdit(user)" [disabled]="saving()">
+            Editar
+          </button>
+          <button type="button" class="ghost danger" (click)="removeInvite(user)" [disabled]="saving()">
+            Eliminar
+          </button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <div class="modal-backdrop" *ngIf="editingUser()">
+    <div class="edit-modal">
+      <header>
+        <div>
+          <p class="eyebrow">Editar invitado</p>
+          <h2>{{ editingUser()?.fullName || editingUser()?.correo }}</h2>
+        </div>
+      </header>
+
+      <form [formGroup]="editForm" (ngSubmit)="submitEdit()" novalidate>
+        <label>
+          <span>Nombre completo</span>
+          <input type="text" formControlName="fullName" placeholder="Nombre Apellido" />
+        </label>
+
+        <label>
+          <span>Correo</span>
+          <input type="email" formControlName="correo" placeholder="correo@cine.com" />
+        </label>
+
+        <label>
+          <span>Estado</span>
+          <select formControlName="activo">
+            <option [ngValue]="true">Activo</option>
+            <option [ngValue]="false">Inactivo</option>
+          </select>
+        </label>
+
+        <div class="edit-actions">
+          <button type="button" class="ghost" (click)="cancelEdit()" [disabled]="saving()">Cancelar</button>
+          <button class="primary" type="submit" [disabled]="saving()">
+            {{ saving() ? 'Guardando...' : 'Guardar cambios' }}
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div *ngIf="feedback()" class="alert success">
+    {{ feedback() }}
+  </div>
+
+  <div *ngIf="error()" class="alert error">
+    {{ error() }}
+  </div>
+</div>

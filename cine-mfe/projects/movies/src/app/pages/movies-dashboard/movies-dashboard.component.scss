@@ -1,0 +1,263 @@
+﻿.movies-dashboard {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem clamp(1.5rem, 5vw, 3.5rem);
+  background: linear-gradient(135deg, rgba(9, 132, 227, 0.15), transparent 50%), #060712;
+  color: #f1f5f9;
+  min-height: 100%;
+}
+
+.hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.2rem;
+
+  h1 {
+    font-size: 2.3rem;
+    margin-bottom: 0.6rem;
+  }
+
+  p {
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 680px;
+  }
+
+  button {
+    border: 0;
+    background: rgba(108, 92, 231, 0.95);
+    color: #fff;
+    padding: 0.65rem 1.4rem;
+    border-radius: 999px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 150ms ease;
+
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    &:not(:disabled):hover {
+      background: rgba(108, 92, 231, 1);
+    }
+  }
+}
+
+.card {
+  background: rgba(14, 17, 37, 0.85);
+  border-radius: 20px;
+  padding: 1.8rem;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(8px);
+}
+
+.form-card {
+  display: grid;
+  gap: 1.5rem;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+form {
+  display: grid;
+  gap: 1.1rem;
+}
+
+label {
+  display: grid;
+  gap: 0.4rem;
+
+  span {
+    font-weight: 600;
+  }
+
+  input,
+  textarea {
+    background: rgba(6, 8, 24, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    resize: vertical;
+
+    &:focus {
+      outline: none;
+      border-color: #6c5ce7;
+    }
+  }
+}
+
+.field-error {
+  color: #ff7675;
+  font-size: 0.8rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.primary {
+  border: 0;
+  background: linear-gradient(135deg, #ff7675, #6c5ce7);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 150ms ease, opacity 150ms ease;
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  &:not(:disabled):hover {
+    transform: translateY(-1px);
+  }
+}
+
+.ghost {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: inherit;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+
+  &.danger:hover {
+    border-color: rgba(255, 118, 117, 0.6);
+    color: #ff7675;
+  }
+
+  &:hover {
+    border-color: rgba(108, 92, 231, 0.6);
+    color: #a29bfe;
+  }
+}
+
+.gallery {
+  display: grid;
+  gap: 1.8rem;
+}
+
+.gallery header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+
+  span {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.95rem;
+  }
+}
+
+.gallery .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.gallery article {
+  background: rgba(8, 10, 25, 0.85);
+  border-radius: 18px;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+
+  .placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+  }
+
+
+.info {
+  padding: 1.2rem 1.4rem 0.8rem;
+
+  h3 {
+    margin-bottom: 0.4rem;
+  }
+
+  .meta {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    padding: 0;
+    margin: 0 0 0.8rem;
+
+    li {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 0.3rem 0.7rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+    }
+  }
+
+  .description {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.95rem;
+  }
+}
+
+article footer {
+  padding: 1rem 1.4rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.6rem;
+}
+
+.state {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.loader {
+  width: 1.1rem;
+  height: 1.1rem;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-top-color: #6c5ce7;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.alert {
+  padding: 1rem 1.2rem;
+  border-radius: 14px;
+  font-size: 0.95rem;
+
+  &.success {
+    background: rgba(85, 239, 196, 0.15);
+    border: 1px solid rgba(85, 239, 196, 0.35);
+  }
+
+  &.error {
+    background: rgba(255, 118, 117, 0.15);
+    border: 1px solid rgba(255, 118, 117, 0.35);
+  }
+}
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

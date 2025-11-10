@@ -1,0 +1,108 @@
+<div class="auth">
+  <section class="card">
+    <h1>Cine Banco Guayaquil</h1>
+    <p class="subtitle">Inicia sesión con tu correo corporativo.</p>
+
+    <div class="tabs">
+      <button
+        type="button"
+        [class.active]="!isRegisterMode()"
+        (click)="toggleMode('login')"
+      >
+        Iniciar sesión
+      </button>
+      <button
+        type="button"
+        [class.active]="isRegisterMode()"
+        (click)="toggleMode('register-admin')"
+      >
+        Registrar administrador
+      </button>
+    </div>
+
+    <form
+      *ngIf="!isRegisterMode()"
+      [formGroup]="loginForm"
+      (ngSubmit)="submitLogin()"
+      novalidate
+    >
+      <label class="field">
+        <span>Correo</span>
+        <input type="email" formControlName="correo" placeholder="admin@cine.com" />
+        <small *ngIf="loginForm.controls.correo.invalid && loginForm.controls.correo.touched">
+          Ingresa un correo válido.
+        </small>
+      </label>
+
+      <label class="field">
+        <span>Contraseña</span>
+        <input type="password" formControlName="contrasenia" placeholder="••••••••" />
+        <small *ngIf="loginForm.controls.contrasenia.invalid && loginForm.controls.contrasenia.touched">
+          La contraseña es obligatoria.
+        </small>
+      </label>
+
+      <button class="primary" type="submit" [disabled]="loading()">
+        {{ loading() ? 'Ingresando...' : 'Iniciar sesión' }}
+      </button>
+    </form>
+
+    <form
+      *ngIf="isRegisterMode()"
+      [formGroup]="adminForm"
+      (ngSubmit)="submitAdmin()"
+      novalidate
+    >
+      <p class="help-text">
+        Usa este formulario solo la primera vez para crear al administrador del sistema.
+      </p>
+
+      <label class="field">
+        <span>Nombre completo</span>
+        <input type="text" formControlName="fullName" placeholder="Nombre Apellido" />
+      </label>
+
+      <label class="field">
+        <span>Correo</span>
+        <input type="email" formControlName="correo" placeholder="admin@cine.com" />
+      </label>
+
+      <label class="field">
+        <span>Contraseña</span>
+        <input type="password" formControlName="contrasenia" placeholder="Mínimo 6 caracteres" />
+      </label>
+
+      <label class="field">
+        <span>Usuario creación</span>
+        <input type="text" formControlName="usuarioCreacion" placeholder="admin@cine.com" />
+      </label>
+
+      <button class="primary" type="submit" [disabled]="loading()">
+        {{ loading() ? 'Registrando...' : 'Registrar administrador' }}
+      </button>
+    </form>
+
+    <div *ngIf="errorMessage()" class="alert error">
+      {{ errorMessage() }}
+    </div>
+
+    <div *ngIf="successMessage()" class="alert success">
+      {{ successMessage() }}
+    </div>
+  </section>
+
+  <aside class="steps">
+    <h2>Pasos rápidos</h2>
+    <ol>
+      <li>
+        Registra al administrador con su correo corporativo (solo una vez).
+      </li>
+      <li>
+        Inicia sesión con el administrador para crear invitadas e invitados desde el módulo de usuarios.
+      </li>
+      <li>
+        Las personas invitadas solo pueden ingresar al módulo de películas.
+      </li>
+    </ol>
+  </aside>
+</div>

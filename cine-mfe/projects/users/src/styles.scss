@@ -1,0 +1,37 @@
+:root {
+  --cbg-font: 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --cbg-bg: #05010a;
+  --cbg-card: rgba(16, 19, 42, 0.95);
+  --cbg-surface: rgba(10, 13, 25, 0.85);
+  --cbg-text: #f6f8ff;
+  --cbg-text-muted: rgba(246, 248, 255, 0.72);
+  --cbg-accent: #ff4fd8;
+  --cbg-accent-strong: #ff7adf;
+  --cbg-border: rgba(255, 255, 255, 0.08);
+  --cbg-hero-overlay: rgba(5, 1, 10, 0.55);
+  --cbg-hero-img: url('/assets/brand/banco-guayaquil.jpg');
+}
+
+body[data-cbg-theme='light'] {
+  --cbg-bg: #f8f6ff;
+  --cbg-card: rgba(255, 255, 255, 0.92);
+  --cbg-surface: rgba(255, 255, 255, 0.85);
+  --cbg-text: #1c1a25;
+  --cbg-text-muted: rgba(28, 26, 37, 0.7);
+  --cbg-border: rgba(28, 26, 37, 0.08);
+  --cbg-hero-overlay: rgba(255, 255, 255, 0.8);
+}
+
+body {
+  margin: 0;
+  font-family: var(--cbg-font);
+  background: var(--cbg-bg);
+  color: var(--cbg-text);
+  min-height: 100vh;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

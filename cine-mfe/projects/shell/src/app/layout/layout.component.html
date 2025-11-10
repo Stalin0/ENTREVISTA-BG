@@ -1,0 +1,55 @@
+<div class="layout">
+  <header class="top-bar" [class.top-bar--admin]="isAdmin()">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">
+        <img src="assets/brand/banco-guayaquil-logo.png" alt="Banco Guayaquil" />
+      </div>
+      <div>
+        <strong>Cine Banco Guayaquil</strong>
+      </div>
+    </div>
+
+    <div class="session" *ngIf="user() as sessionUser">
+      <div class="who">
+        <span class="label">Sesión activa</span>
+        <span class="name">{{ sessionUser.fullName || sessionUser.correo }}</span>
+        <small>{{ sessionUser.role === 'ADMIN' ? 'Administrador' : 'Invitado' }}</small>
+      </div>
+      <button type="button" (click)="logout()">Salir</button>
+    </div>
+  </header>
+
+  
+  <div class="content" [class.with-sidebar]="isAdmin()">
+    <aside *ngIf="isAdmin()" class="sidebar">
+      <div class="sidebar__hero">
+        <p class="overline">Centro de control</p>
+        <h3>Todo el poder en tus manos</h3>
+        <p class="muted">
+          Accede rápidamente a los módulos más utilizados del ecosistema.
+        </p>
+      </div>
+
+      <nav class="sidebar__nav">
+        <a routerLink="/movies" routerLinkActive="active">
+          <span>&bull;</span>
+          Películas
+        </a>
+        <a routerLink="/users" routerLinkActive="active">
+          <span>&bull;</span>
+          Usuarios
+        </a>
+      </nav>
+
+      <div class="sidebar__badge">
+        <span>Estado de sesión</span>
+        <strong>Administrador al mando</strong>
+        <small>Recuerda cerrar sesión para limpiar la caché; local.</small>
+      </div>
+    </aside>
+
+    <main>
+      <router-outlet />
+    </main>
+  </div>
+</div>
