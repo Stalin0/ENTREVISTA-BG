@@ -1,0 +1,19 @@
+# Node / Angular
+node_modules/
+dist/
+.angular/
+.cache/
+**/package-lock.json
+
+# VS / .NET
+.vs/
+**/bin/
+**/obj/
+TestResults/
+*.user
+*.suo
+
+# Misc
+*.log
+*.DS_Store
+*.env

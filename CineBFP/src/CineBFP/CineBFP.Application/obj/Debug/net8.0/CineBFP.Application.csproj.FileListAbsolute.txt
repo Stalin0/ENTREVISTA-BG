@@ -1,0 +1,15 @@
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Application\obj\Debug\net8.0\CineBFP.Application.csproj.AssemblyReference.cache
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Application\obj\Debug\net8.0\CineBFP.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Application\obj\Debug\net8.0\CineBFP.Application.AssemblyInfoInputs.cache
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Application\obj\Debug\net8.0\CineBFP.Application.AssemblyInfo.cs
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Application\obj\Debug\net8.0\CineBFP.Application.csproj.CoreCompileInputs.cache
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Application\bin\Debug\net8.0\CineBFP.Application.deps.json
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Application\bin\Debug\net8.0\CineBFP.Application.dll
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Application\bin\Debug\net8.0\CineBFP.Application.pdb
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Application\bin\Debug\net8.0\CineBFP.Domain.dll
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Application\bin\Debug\net8.0\CineBFP.Domain.pdb
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Application\obj\Debug\net8.0\CineBFP..6AC7C822.Up2Date
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Application\obj\Debug\net8.0\CineBFP.Application.dll
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Application\obj\Debug\net8.0\refint\CineBFP.Application.dll
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Application\obj\Debug\net8.0\CineBFP.Application.pdb
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Application\obj\Debug\net8.0\ref\CineBFP.Application.dll

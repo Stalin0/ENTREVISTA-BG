@@ -1,0 +1,609 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{598AF5F9-4187-D707-27BF-62DB6250728D}|CineBFP.Application\\CineBFP.Application.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.application\\user\\application\\userapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598AF5F9-4187-D707-27BF-62DB6250728D}|CineBFP.Application\\CineBFP.Application.csproj|solutionrelative:cinebfp.application\\user\\application\\userapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05BDA3B8-05E4-1E99-08A2-7821A622D856}|CineBFP.Infrastructure\\CineBFP.Infrastructure.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.infrastructure\\user\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05BDA3B8-05E4-1E99-08A2-7821A622D856}|CineBFP.Infrastructure\\CineBFP.Infrastructure.csproj|solutionrelative:cinebfp.infrastructure\\user\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.domain\\user\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|solutionrelative:cinebfp.domain\\user\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9122B5BB-E8FC-3EF1-5A2A-36A6EBBFCB09}|CineBFP.Api\\CineBFP.Api.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.api\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9122B5BB-E8FC-3EF1-5A2A-36A6EBBFCB09}|CineBFP.Api\\CineBFP.Api.csproj|solutionrelative:cinebfp.api\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9122B5BB-E8FC-3EF1-5A2A-36A6EBBFCB09}|CineBFP.Api\\CineBFP.Api.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9122B5BB-E8FC-3EF1-5A2A-36A6EBBFCB09}|CineBFP.Api\\CineBFP.Api.csproj|solutionrelative:cinebfp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9122B5BB-E8FC-3EF1-5A2A-36A6EBBFCB09}|CineBFP.Api\\CineBFP.Api.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9122B5BB-E8FC-3EF1-5A2A-36A6EBBFCB09}|CineBFP.Api\\CineBFP.Api.csproj|solutionrelative:cinebfp.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.domain\\user\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|solutionrelative:cinebfp.domain\\user\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.domain\\user\\entities\\getuserentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|solutionrelative:cinebfp.domain\\user\\entities\\getuserentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05BDA3B8-05E4-1E99-08A2-7821A622D856}|CineBFP.Infrastructure\\CineBFP.Infrastructure.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.infrastructure\\cinedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05BDA3B8-05E4-1E99-08A2-7821A622D856}|CineBFP.Infrastructure\\CineBFP.Infrastructure.csproj|solutionrelative:cinebfp.infrastructure\\cinedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9122B5BB-E8FC-3EF1-5A2A-36A6EBBFCB09}|CineBFP.Api\\CineBFP.Api.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.api\\services\\user\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9122B5BB-E8FC-3EF1-5A2A-36A6EBBFCB09}|CineBFP.Api\\CineBFP.Api.csproj|solutionrelative:cinebfp.api\\services\\user\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9122B5BB-E8FC-3EF1-5A2A-36A6EBBFCB09}|CineBFP.Api\\CineBFP.Api.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.api\\services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9122B5BB-E8FC-3EF1-5A2A-36A6EBBFCB09}|CineBFP.Api\\CineBFP.Api.csproj|solutionrelative:cinebfp.api\\services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{598AF5F9-4187-D707-27BF-62DB6250728D}|CineBFP.Application\\CineBFP.Application.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.application\\user\\application\\iuserapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598AF5F9-4187-D707-27BF-62DB6250728D}|CineBFP.Application\\CineBFP.Application.csproj|solutionrelative:cinebfp.application\\user\\application\\iuserapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.domain\\user\\interface.repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|solutionrelative:cinebfp.domain\\user\\interface.repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05BDA3B8-05E4-1E99-08A2-7821A622D856}|CineBFP.Infrastructure\\CineBFP.Infrastructure.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.infrastructure\\movie\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05BDA3B8-05E4-1E99-08A2-7821A622D856}|CineBFP.Infrastructure\\CineBFP.Infrastructure.csproj|solutionrelative:cinebfp.infrastructure\\movie\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9122B5BB-E8FC-3EF1-5A2A-36A6EBBFCB09}|CineBFP.Api\\CineBFP.Api.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.api\\controllers\\movie\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9122B5BB-E8FC-3EF1-5A2A-36A6EBBFCB09}|CineBFP.Api\\CineBFP.Api.csproj|solutionrelative:cinebfp.api\\controllers\\movie\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.domain\\movie\\dtos\\deletemoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|solutionrelative:cinebfp.domain\\movie\\dtos\\deletemoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9122B5BB-E8FC-3EF1-5A2A-36A6EBBFCB09}|CineBFP.Api\\CineBFP.Api.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.api\\services\\movie\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9122B5BB-E8FC-3EF1-5A2A-36A6EBBFCB09}|CineBFP.Api\\CineBFP.Api.csproj|solutionrelative:cinebfp.api\\services\\movie\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{598AF5F9-4187-D707-27BF-62DB6250728D}|CineBFP.Application\\CineBFP.Application.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.application\\movie\\application\\movieapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598AF5F9-4187-D707-27BF-62DB6250728D}|CineBFP.Application\\CineBFP.Application.csproj|solutionrelative:cinebfp.application\\movie\\application\\movieapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.domain\\movie\\entities\\deletemovieentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|solutionrelative:cinebfp.domain\\movie\\entities\\deletemovieentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9122B5BB-E8FC-3EF1-5A2A-36A6EBBFCB09}|CineBFP.Api\\CineBFP.Api.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.api\\services\\movie\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9122B5BB-E8FC-3EF1-5A2A-36A6EBBFCB09}|CineBFP.Api\\CineBFP.Api.csproj|solutionrelative:cinebfp.api\\services\\movie\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{598AF5F9-4187-D707-27BF-62DB6250728D}|CineBFP.Application\\CineBFP.Application.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.application\\movie\\application\\imovieapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598AF5F9-4187-D707-27BF-62DB6250728D}|CineBFP.Application\\CineBFP.Application.csproj|solutionrelative:cinebfp.application\\movie\\application\\imovieapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.domain\\user\\entities\\deleteuserentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|solutionrelative:cinebfp.domain\\user\\entities\\deleteuserentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.domain\\user\\dtos\\deleteuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|solutionrelative:cinebfp.domain\\user\\dtos\\deleteuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{598AF5F9-4187-D707-27BF-62DB6250728D}|CineBFP.Application\\CineBFP.Application.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.application\\user\\models\\updateuserinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598AF5F9-4187-D707-27BF-62DB6250728D}|CineBFP.Application\\CineBFP.Application.csproj|solutionrelative:cinebfp.application\\user\\models\\updateuserinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.domain\\user\\dtos\\updateuserdtoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|solutionrelative:cinebfp.domain\\user\\dtos\\updateuserdtoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.domain\\user\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|solutionrelative:cinebfp.domain\\user\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05BDA3B8-05E4-1E99-08A2-7821A622D856}|CineBFP.Infrastructure\\CineBFP.Infrastructure.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.infrastructure\\cinebfp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{05BDA3B8-05E4-1E99-08A2-7821A622D856}|CineBFP.Infrastructure\\CineBFP.Infrastructure.csproj|solutionrelative:cinebfp.infrastructure\\cinebfp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.domain\\user\\entities\\updateuserentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|solutionrelative:cinebfp.domain\\user\\entities\\updateuserentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.domain\\user\\dtos\\userdtoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|solutionrelative:cinebfp.domain\\user\\dtos\\userdtoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.domain\\user\\dtos\\logindtoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|solutionrelative:cinebfp.domain\\user\\dtos\\logindtoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.domain\\movie\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|solutionrelative:cinebfp.domain\\movie\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.domain\\movie\\entities\\getmovieentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|solutionrelative:cinebfp.domain\\movie\\entities\\getmovieentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.domain\\movie\\entities\\movieentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E30D570-9554-F4B0-6318-0C3F4CF99031}|CineBFP.Domain\\CineBFP.Domain.csproj|solutionrelative:cinebfp.domain\\movie\\entities\\movieentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05BDA3B8-05E4-1E99-08A2-7821A622D856}|CineBFP.Infrastructure\\CineBFP.Infrastructure.csproj|c:\\users\\viamatica\\documents\\entrevista\\cinebfp\\src\\cinebfp\\cinebfp.infrastructure\\ioc\\diiinfraestructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05BDA3B8-05E4-1E99-08A2-7821A622D856}|CineBFP.Infrastructure\\CineBFP.Infrastructure.csproj|solutionrelative:cinebfp.infrastructure\\ioc\\diiinfraestructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 176,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Api\\Controllers\\User\\UserController.cs",
+              "RelativeDocumentMoniker": "CineBFP.Api\\Controllers\\User\\UserController.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Api\\Controllers\\User\\UserController.cs",
+              "RelativeToolTip": "CineBFP.Api\\Controllers\\User\\UserController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwCoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T05:25:16.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "CineBFP.Domain\\User\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "CineBFP.Domain\\User\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T06:02:54.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserApp.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Application\\User\\Application\\UserApp.cs",
+              "RelativeDocumentMoniker": "CineBFP.Application\\User\\Application\\UserApp.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Application\\User\\Application\\UserApp.cs",
+              "RelativeToolTip": "CineBFP.Application\\User\\Application\\UserApp.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAADwv2MAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T05:46:25.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CineBFP.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Api\\appsettings.Development.json",
+              "RelativeToolTip": "CineBFP.Api\\appsettings.Development.json",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-06T05:05:22.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Api\\Program.cs",
+              "RelativeDocumentMoniker": "CineBFP.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Api\\Program.cs",
+              "RelativeToolTip": "CineBFP.Api\\Program.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwGMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T05:30:50.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Infrastructure\\User\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CineBFP.Infrastructure\\User\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Infrastructure\\User\\UserRepository.cs",
+              "RelativeToolTip": "CineBFP.Infrastructure\\User\\UserRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAswC4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T05:45:39.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "CineBFP.Domain\\User\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "CineBFP.Domain\\User\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T06:02:57.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserApp.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Application\\User\\Application\\IUserApp.cs",
+              "RelativeDocumentMoniker": "CineBFP.Application\\User\\Application\\IUserApp.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Application\\User\\Application\\IUserApp.cs",
+              "RelativeToolTip": "CineBFP.Application\\User\\Application\\IUserApp.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T22:13:49.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Api\\Services\\User\\IUserService.cs",
+              "RelativeDocumentMoniker": "CineBFP.Api\\Services\\User\\IUserService.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Api\\Services\\User\\IUserService.cs",
+              "RelativeToolTip": "CineBFP.Api\\Services\\User\\IUserService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T21:56:31.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Api\\Services\\User\\UserService.cs",
+              "RelativeDocumentMoniker": "CineBFP.Api\\Services\\User\\UserService.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Api\\Services\\User\\UserService.cs",
+              "RelativeToolTip": "CineBFP.Api\\Services\\User\\UserService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvwgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T05:49:40.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetUserEntities.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\Entities\\GetUserEntities.cs",
+              "RelativeDocumentMoniker": "CineBFP.Domain\\User\\Entities\\GetUserEntities.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\Entities\\GetUserEntities.cs",
+              "RelativeToolTip": "CineBFP.Domain\\User\\Entities\\GetUserEntities.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T01:20:12.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CineDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Infrastructure\\CineDbContext.cs",
+              "RelativeDocumentMoniker": "CineBFP.Infrastructure\\CineDbContext.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Infrastructure\\CineDbContext.cs",
+              "RelativeToolTip": "CineBFP.Infrastructure\\CineDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T16:56:29.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\Interface.Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "CineBFP.Domain\\User\\Interface.Repository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\Interface.Repository\\IUserRepository.cs",
+              "RelativeToolTip": "CineBFP.Domain\\User\\Interface.Repository\\IUserRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwA4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T06:11:18.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Infrastructure\\Movie\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "CineBFP.Infrastructure\\Movie\\MovieRepository.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Infrastructure\\Movie\\MovieRepository.cs",
+              "RelativeToolTip": "CineBFP.Infrastructure\\Movie\\MovieRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwDwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T05:45:51.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DeleteMovieDto.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\Movie\\DTOs\\DeleteMovieDto.cs",
+              "RelativeDocumentMoniker": "CineBFP.Domain\\Movie\\DTOs\\DeleteMovieDto.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\Movie\\DTOs\\DeleteMovieDto.cs",
+              "RelativeToolTip": "CineBFP.Domain\\Movie\\DTOs\\DeleteMovieDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T23:26:31.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Api\\Controllers\\Movie\\MovieController.cs",
+              "RelativeDocumentMoniker": "CineBFP.Api\\Controllers\\Movie\\MovieController.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Api\\Controllers\\Movie\\MovieController.cs",
+              "RelativeToolTip": "CineBFP.Api\\Controllers\\Movie\\MovieController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAIAwwDgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T05:38:02.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Api\\Services\\Movie\\MovieService.cs",
+              "RelativeDocumentMoniker": "CineBFP.Api\\Services\\Movie\\MovieService.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Api\\Services\\Movie\\MovieService.cs",
+              "RelativeToolTip": "CineBFP.Api\\Services\\Movie\\MovieService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T05:49:54.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MovieApp.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Application\\Movie\\Application\\MovieApp.cs",
+              "RelativeDocumentMoniker": "CineBFP.Application\\Movie\\Application\\MovieApp.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Application\\Movie\\Application\\MovieApp.cs",
+              "RelativeToolTip": "CineBFP.Application\\Movie\\Application\\MovieApp.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T03:09:06.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DeleteMovieEntities.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\Movie\\Entities\\DeleteMovieEntities.cs",
+              "RelativeDocumentMoniker": "CineBFP.Domain\\Movie\\Entities\\DeleteMovieEntities.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\Movie\\Entities\\DeleteMovieEntities.cs",
+              "RelativeToolTip": "CineBFP.Domain\\Movie\\Entities\\DeleteMovieEntities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T23:30:36.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IMovieApp.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Application\\Movie\\Application\\IMovieApp.cs",
+              "RelativeDocumentMoniker": "CineBFP.Application\\Movie\\Application\\IMovieApp.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Application\\Movie\\Application\\IMovieApp.cs",
+              "RelativeToolTip": "CineBFP.Application\\Movie\\Application\\IMovieApp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T05:47:05.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IMovieService.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Api\\Services\\Movie\\IMovieService.cs",
+              "RelativeDocumentMoniker": "CineBFP.Api\\Services\\Movie\\IMovieService.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Api\\Services\\Movie\\IMovieService.cs",
+              "RelativeToolTip": "CineBFP.Api\\Services\\Movie\\IMovieService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T01:21:27.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DeleteUserEntities.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\Entities\\DeleteUserEntities.cs",
+              "RelativeDocumentMoniker": "CineBFP.Domain\\User\\Entities\\DeleteUserEntities.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\Entities\\DeleteUserEntities.cs",
+              "RelativeToolTip": "CineBFP.Domain\\User\\Entities\\DeleteUserEntities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T22:38:12.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DeleteUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\DTOs\\DeleteUserDto.cs",
+              "RelativeDocumentMoniker": "CineBFP.Domain\\User\\DTOs\\DeleteUserDto.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\DTOs\\DeleteUserDto.cs",
+              "RelativeToolTip": "CineBFP.Domain\\User\\DTOs\\DeleteUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T22:33:23.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdateUserInput.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Application\\User\\Models\\UpdateUserInput.cs",
+              "RelativeDocumentMoniker": "CineBFP.Application\\User\\Models\\UpdateUserInput.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Application\\User\\Models\\UpdateUserInput.cs",
+              "RelativeToolTip": "CineBFP.Application\\User\\Models\\UpdateUserInput.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T21:53:27.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UpdateUserDtoIn.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\DTOs\\UpdateUserDtoIn.cs",
+              "RelativeDocumentMoniker": "CineBFP.Domain\\User\\DTOs\\UpdateUserDtoIn.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\DTOs\\UpdateUserDtoIn.cs",
+              "RelativeToolTip": "CineBFP.Domain\\User\\DTOs\\UpdateUserDtoIn.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T21:52:15.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\DTOs\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "CineBFP.Domain\\User\\DTOs\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\DTOs\\UpdateUserDto.cs",
+              "RelativeToolTip": "CineBFP.Domain\\User\\DTOs\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T21:39:51.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CineBFP.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Infrastructure\\CineBFP.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "CineBFP.Infrastructure\\CineBFP.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Infrastructure\\CineBFP.Infrastructure.csproj",
+              "RelativeToolTip": "CineBFP.Infrastructure\\CineBFP.Infrastructure.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-09T21:59:00.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateUserEntities.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\Entities\\UpdateUserEntities.cs",
+              "RelativeDocumentMoniker": "CineBFP.Domain\\User\\Entities\\UpdateUserEntities.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\Entities\\UpdateUserEntities.cs",
+              "RelativeToolTip": "CineBFP.Domain\\User\\Entities\\UpdateUserEntities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T21:42:20.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserDtoIn.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\DTOs\\UserDtoIn.cs",
+              "RelativeDocumentMoniker": "CineBFP.Domain\\User\\DTOs\\UserDtoIn.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\DTOs\\UserDtoIn.cs",
+              "RelativeToolTip": "CineBFP.Domain\\User\\DTOs\\UserDtoIn.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T06:02:58.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginDtoIn.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\DTOs\\LoginDtoIn.cs",
+              "RelativeDocumentMoniker": "CineBFP.Domain\\User\\DTOs\\LoginDtoIn.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\User\\DTOs\\LoginDtoIn.cs",
+              "RelativeToolTip": "CineBFP.Domain\\User\\DTOs\\LoginDtoIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T06:02:55.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MovieDto.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\Movie\\DTOs\\MovieDto.cs",
+              "RelativeDocumentMoniker": "CineBFP.Domain\\Movie\\DTOs\\MovieDto.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\Movie\\DTOs\\MovieDto.cs",
+              "RelativeToolTip": "CineBFP.Domain\\Movie\\DTOs\\MovieDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T06:02:52.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GetMovieEntities.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\Movie\\Entities\\GetMovieEntities.cs",
+              "RelativeDocumentMoniker": "CineBFP.Domain\\Movie\\Entities\\GetMovieEntities.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\Movie\\Entities\\GetMovieEntities.cs",
+              "RelativeToolTip": "CineBFP.Domain\\Movie\\Entities\\GetMovieEntities.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T03:18:06.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MovieEntities.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\Movie\\Entities\\MovieEntities.cs",
+              "RelativeDocumentMoniker": "CineBFP.Domain\\Movie\\Entities\\MovieEntities.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Domain\\Movie\\Entities\\MovieEntities.cs",
+              "RelativeToolTip": "CineBFP.Domain\\Movie\\Entities\\MovieEntities.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T05:45:18.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DIIInfraestructure.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Infrastructure\\IoC\\DIIInfraestructure.cs",
+              "RelativeDocumentMoniker": "CineBFP.Infrastructure\\IoC\\DIIInfraestructure.cs",
+              "ToolTip": "C:\\Users\\viamatica\\Documents\\Entrevista\\CineBFP\\src\\CineBFP\\CineBFP.Infrastructure\\IoC\\DIIInfraestructure.cs",
+              "RelativeToolTip": "CineBFP.Infrastructure\\IoC\\DIIInfraestructure.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T05:24:52.054Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 224,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

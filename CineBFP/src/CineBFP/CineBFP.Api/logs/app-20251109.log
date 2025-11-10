@@ -1,0 +1,102 @@
+2025-11-09 21:38:37.788 -05:00 [WRN] Overriding address(es) 'http://localhost:8080'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-11-09 21:38:37.954 -05:00 [INF] Now listening on: http://[::]:8080
+2025-11-09 21:38:38.106 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-09 21:38:38.120 -05:00 [INF] Hosting environment: Development
+2025-11-09 21:38:38.122 -05:00 [INF] Content root path: C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Api
+2025-11-09 21:38:39.215 -05:00 [INF] HTTP GET / responded 405 in 166.2636 ms
+2025-11-09 21:38:53.563 -05:00 [INF] HTTP OPTIONS /api/v1/login responded 204 in 3.4042 ms
+2025-11-09 21:38:59.853 -05:00 [INF] HTTP POST /api/v1/login responded 200 in 6283.0393 ms
+2025-11-09 21:38:59.982 -05:00 [INF] HTTP OPTIONS /api/v1/movies responded 204 in 0.2116 ms
+2025-11-09 21:39:00.180 -05:00 [INF] HTTP GET /api/v1/movies responded 200 in 190.7873 ms
+2025-11-09 21:39:05.054 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.0577 ms
+2025-11-09 21:39:05.172 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 107.1225 ms
+2025-11-09 21:41:18.522 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.2247 ms
+2025-11-09 21:41:18.605 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 55.9013 ms
+2025-11-09 21:43:29.838 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 1.5496 ms
+2025-11-09 21:43:29.880 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 24.5029 ms
+2025-11-09 21:46:48.320 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.1251 ms
+2025-11-09 21:46:48.371 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 28.6343 ms
+2025-11-09 21:47:35.743 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.1524 ms
+2025-11-09 21:47:35.851 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 19.5734 ms
+2025-11-09 21:48:02.347 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.2058 ms
+2025-11-09 21:48:02.378 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 14.6313 ms
+2025-11-09 21:48:11.976 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 2.2982 ms
+2025-11-09 21:48:12.060 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 20.2867 ms
+2025-11-09 21:48:20.473 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.1102 ms
+2025-11-09 21:48:20.504 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 22.1676 ms
+2025-11-09 21:48:27.326 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.0648 ms
+2025-11-09 21:48:27.347 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 14.4256 ms
+2025-11-09 21:50:41.339 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.0875 ms
+2025-11-09 21:50:41.360 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 15.1672 ms
+2025-11-09 21:52:25.278 -05:00 [WRN] Overriding address(es) 'http://localhost:8080'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-11-09 21:52:25.387 -05:00 [INF] Now listening on: http://[::]:8080
+2025-11-09 21:52:25.508 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-09 21:52:25.510 -05:00 [INF] Hosting environment: Development
+2025-11-09 21:52:25.513 -05:00 [INF] Content root path: C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Api
+2025-11-09 21:52:26.805 -05:00 [INF] HTTP GET / responded 405 in 114.1853 ms
+2025-11-09 21:52:36.611 -05:00 [INF] HTTP OPTIONS /api/v1/login responded 204 in 5.4424 ms
+2025-11-09 21:52:36.909 -05:00 [INF] UserController::Iniciando con el logueo del usuario.-->CineBFP.Application.User.Models.LoginInput
+2025-11-09 21:52:39.628 -05:00 [INF] UserController::Fin con el logueo del usuario.-->CineBFP.Application.User.Models.LoginInput
+2025-11-09 21:52:39.644 -05:00 [INF] HTTP POST /api/v1/login responded 200 in 3021.3085 ms
+2025-11-09 21:53:00.173 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.2110 ms
+2025-11-09 21:53:00.270 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 88.1086 ms
+2025-11-09 21:54:02.872 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 11.8224 ms
+2025-11-09 21:54:03.515 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 336.7826 ms
+2025-11-09 21:57:46.740 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.5549 ms
+2025-11-09 21:57:46.795 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 36.8267 ms
+2025-11-09 21:57:59.749 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.0916 ms
+2025-11-09 21:58:00.098 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 30.8251 ms
+2025-11-09 21:58:15.769 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.0562 ms
+2025-11-09 21:58:15.823 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 8.7960 ms
+2025-11-09 21:58:53.351 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.2257 ms
+2025-11-09 21:58:53.399 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 26.7385 ms
+2025-11-09 21:59:04.069 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.1612 ms
+2025-11-09 21:59:04.098 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 21.0972 ms
+2025-11-09 21:59:19.662 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.5239 ms
+2025-11-09 21:59:19.688 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 10.9575 ms
+2025-11-09 21:59:25.395 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.0626 ms
+2025-11-09 21:59:25.410 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 8.2064 ms
+2025-11-09 21:59:34.376 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.0893 ms
+2025-11-09 21:59:34.393 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 8.9933 ms
+2025-11-09 21:59:44.481 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.2139 ms
+2025-11-09 21:59:44.524 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 37.2468 ms
+2025-11-09 21:59:59.224 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.0549 ms
+2025-11-09 21:59:59.269 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 35.6411 ms
+2025-11-09 22:00:19.052 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.0607 ms
+2025-11-09 22:00:19.068 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 9.8656 ms
+2025-11-09 22:03:06.365 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 26.5146 ms
+2025-11-09 22:03:06.396 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 17.3800 ms
+2025-11-09 22:05:05.519 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 2.0878 ms
+2025-11-09 22:05:05.551 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 20.9105 ms
+2025-11-09 22:06:53.649 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.1092 ms
+2025-11-09 22:06:53.762 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 33.4473 ms
+2025-11-09 22:07:24.497 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.1091 ms
+2025-11-09 22:07:24.528 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 17.8161 ms
+2025-11-09 22:08:28.327 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.0804 ms
+2025-11-09 22:08:28.396 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 58.3513 ms
+2025-11-09 22:08:54.291 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.0691 ms
+2025-11-09 22:08:54.324 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 21.2114 ms
+2025-11-09 22:09:45.481 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.0834 ms
+2025-11-09 22:09:45.562 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 62.9095 ms
+2025-11-09 22:09:54.402 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.1926 ms
+2025-11-09 22:09:54.437 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 16.4117 ms
+2025-11-09 22:11:07.126 -05:00 [WRN] Overriding address(es) 'http://localhost:8080'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-11-09 22:11:07.216 -05:00 [INF] Now listening on: http://[::]:8080
+2025-11-09 22:11:07.474 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-09 22:11:07.476 -05:00 [INF] Hosting environment: Development
+2025-11-09 22:11:07.478 -05:00 [INF] Content root path: C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Api
+2025-11-09 22:11:08.334 -05:00 [INF] HTTP GET / responded 405 in 84.9056 ms
+2025-11-09 22:18:20.046 -05:00 [INF] HTTP GET /api/v1/user responded 401 in 164.0240 ms
+2025-11-09 22:18:21.558 -05:00 [INF] HTTP GET /api/v1/movies responded 401 in 5.9013 ms
+2025-11-09 22:18:26.291 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 1.7340 ms
+2025-11-09 22:18:30.456 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 4156.5000 ms
+2025-11-09 22:18:44.104 -05:00 [INF] HTTP OPTIONS /api/v1/login responded 204 in 0.2249 ms
+2025-11-09 22:18:44.155 -05:00 [INF] UserController::Iniciando con el logueo del usuario.-->CineBFP.Application.User.Models.LoginInput
+2025-11-09 22:18:44.708 -05:00 [INF] UserController::Fin con el logueo del usuario.-->CineBFP.Application.User.Models.LoginInput
+2025-11-09 22:18:44.712 -05:00 [INF] HTTP POST /api/v1/login responded 200 in 600.0359 ms
+2025-11-09 22:18:44.803 -05:00 [INF] HTTP OPTIONS /api/v1/movies responded 204 in 0.0831 ms
+2025-11-09 22:18:44.915 -05:00 [INF] HTTP GET /api/v1/movies responded 200 in 100.4294 ms
+2025-11-09 22:18:48.380 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.2906 ms
+2025-11-09 22:18:48.414 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 24.4812 ms
+2025-11-09 22:18:56.463 -05:00 [INF] HTTP OPTIONS /api/v1/user responded 204 in 0.1140 ms
+2025-11-09 22:18:56.485 -05:00 [INF] HTTP GET /api/v1/user responded 200 in 11.0626 ms

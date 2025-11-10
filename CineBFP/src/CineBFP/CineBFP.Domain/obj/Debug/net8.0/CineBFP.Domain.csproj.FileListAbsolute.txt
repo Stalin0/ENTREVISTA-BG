@@ -1,0 +1,12 @@
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Domain\bin\Debug\net8.0\CineBFP.Domain.deps.json
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Domain\bin\Debug\net8.0\CineBFP.Domain.dll
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Domain\bin\Debug\net8.0\CineBFP.Domain.pdb
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Domain\obj\Debug\net8.0\CineBFP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Domain\obj\Debug\net8.0\CineBFP.Domain.AssemblyInfoInputs.cache
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Domain\obj\Debug\net8.0\CineBFP.Domain.AssemblyInfo.cs
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Domain\obj\Debug\net8.0\CineBFP.Domain.csproj.CoreCompileInputs.cache
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Domain\obj\Debug\net8.0\CineBFP.Domain.dll
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Domain\obj\Debug\net8.0\refint\CineBFP.Domain.dll
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Domain\obj\Debug\net8.0\CineBFP.Domain.pdb
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Domain\obj\Debug\net8.0\ref\CineBFP.Domain.dll
+C:\Users\viamatica\Documents\Entrevista\CineBFP\src\CineBFP\CineBFP.Domain\obj\Debug\net8.0\CineBFP.Domain.csproj.AssemblyReference.cache
